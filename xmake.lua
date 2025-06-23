@@ -105,3 +105,33 @@ target("ex248")
     set_languages("c++20")
     add_files("src/excise/ex248/*.cc")
 
+target("ex161")
+    set_kind("binary")
+    set_languages("c++20")
+    add_files("src/excise/ex161/*.cc")
+
+target("ex72")
+    set_kind("binary")
+    set_languages("c++20")
+    add_files("src/excise/ex72/*.cc")
+
+target("ex159")
+    set_kind("binary")
+    set_languages("c++20")
+    add_files("src/excise/ex159/*.cc")
+
+target("ex750")
+    set_kind("binary")
+    set_languages("c++20")
+    add_files("src/excise/ex750/*.cc")
+
+target("ex14")
+    set_kind("binary")
+    set_languages("c++20")
+    add_files("src/excise/ex14/*.cc")
+
+target("ex15")
+    set_kind("binary")
+    set_languages("c++20")
+    add_files("src/excise/ex15/*.cc")
+
