@@ -18,6 +18,6 @@ printf '\nint main() {\n\n}' >> "${dir}/test_${seq}.cc"
 
 printf "target(\"ex%s\")\n" "${seq}" >> "xmake.lua"
 echo '    set_kind("binary")' >> "xmake.lua"
-echo '    set_languages("c++20")' >> "xmake.lua"
+# echo '    set_languages("c++20")' >> "xmake.lua"
 printf "    add_files(\"%s/*.cc\")\n" "${dir}" >> "xmake.lua"
 echo '' >> "xmake.lua"

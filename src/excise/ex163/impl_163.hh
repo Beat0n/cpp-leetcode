@@ -1,10 +1,11 @@
-// 给你一个闭区间 [lower, upper] 和一个 按从小到大排序 的整数数组 nums ，其中元素的范围在闭区间 [lower, upper] 当中。
+// 给你一个闭区间 [lower, upper] 和一个 按从小到大排序 的整数数组 nums
+// ，其中元素的范围在闭区间 [lower, upper] 当中。
 
 // 如果一个数字 x 在 [lower, upper] 区间内，并且 x 不在 nums 中，则认为 x 缺失。
 
-// 返回 准确涵盖所有缺失数字 的 最小排序 区间列表。也就是说，nums 的任何元素都不在任何区间内，并且每个缺失的数字都在其中一个区间内。
+// 返回 准确涵盖所有缺失数字 的 最小排序 区间列表。也就是说，nums
+// 的任何元素都不在任何区间内，并且每个缺失的数字都在其中一个区间内。
 
- 
 // 示例 1：
 
 // 输入: nums = [0, 1, 3, 50, 75], lower = 0 , upper = 99
@@ -19,7 +20,6 @@
 // 输入： nums = [-1], lower = -1, upper = -1
 // 输出： []
 // 解释： 没有缺失的区间，因为没有缺失的数字。
- 
 
 // 提示：
 
@@ -32,7 +32,25 @@
 
 class Solution {
 public:
-    vector<vector<int>> findMissingRanges(vector<int>& nums, int lower, int upper) {
-        
+  vector<vector<int>> findMissingRanges(vector<int> &nums, int lower,
+                                        int upper) {
+    vector<vector<int>> ans;
+    int target = lower;
+    for (int i = 0; i < nums.size(); ++i) {
+      if (nums[i] < lower) {
+        continue;
+      }
+      if (nums[i] > upper) {
+        break;
+      }
+      if (nums[i] != target) {
+        ans.push_back({target, nums[i] - 1});
+      }
+      target = nums[i] + 1;
     }
+    if (target >= lower && target <= upper) {
+      ans.push_back({target, upper});
+    }
+    return ans;
+  }
 };
