@@ -123,3 +123,99 @@ target("ex15")
     set_languages("c++20")
     add_files("src/excise/ex15/*.cc")
 
+target("ex21")
+    set_kind("binary")
+    add_files("src/excise/ex21/*.cc")
+
+target("ex20")
+    set_kind("binary")
+    add_files("src/excise/ex20/*.cc")
+
+target("ex19")
+    set_kind("binary")
+    add_files("src/excise/ex19/*.cc")
+
+target("ex24")
+    set_kind("binary")
+    add_files("src/excise/ex24/*.cc")
+
+target("ex25")
+    set_kind("binary")
+    add_files("src/excise/ex25/*.cc")
+
+target("ex92")
+    set_kind("binary")
+    add_files("src/excise/ex92/*.cc")
+
+target("ex61")
+    set_kind("binary")
+    add_files("src/excise/ex61/*.cc")
+
+target("ex48")
+    set_kind("binary")
+    add_files("src/excise/ex48/*.cc")
+
+target("ex17")
+    set_kind("binary")
+    add_files("src/excise/ex17/*.cc")
+
+target("ex18")
+    set_kind("binary")
+    add_files("src/excise/ex18/*.cc")
+
+target("ex22")
+    set_kind("binary")
+    add_files("src/excise/ex22/*.cc")
+
+target("ex26")
+    set_kind("binary")
+    add_files("src/excise/ex26/*.cc")
+
+target("ex35")
+    set_kind("binary")
+    add_files("src/excise/ex35/*.cc")
+
+target("ex34")
+    set_kind("binary")
+    add_files("src/excise/ex34/*.cc")
+
+target("ex36")
+    set_kind("binary")
+    add_files("src/excise/ex36/*.cc")
+
+target("ex46")
+    set_kind("binary")
+    add_files("src/excise/ex46/*.cc")
+
+target("ex47")
+    set_kind("binary")
+    add_files("src/excise/ex47/*.cc")
+
+target("ex49")
+    set_kind("binary")
+    add_files("src/excise/ex49/*.cc")
+
+target("ex54")
+    set_kind("binary")
+    add_files("src/excise/ex54/*.cc")
+
+target("ex59")
+    set_kind("binary")
+    add_files("src/excise/ex59/*.cc")
+
+target("ex73")
+    set_kind("binary")
+    add_files("src/excise/ex73/*.cc")
+
+target("ex74")
+    set_kind("binary")
+    add_files("src/excise/ex74/*.cc")
+
+target("ex77")
+    set_kind("binary")
+    add_files("src/excise/ex77/*.cc")
+
+target("ex79")
+    set_kind("binary")
+    add_files("src/excise/ex79/*.cc")
+

@@ -39,8 +39,13 @@ public:
       int left = i + 1;
       int right = n - 1;
       while (left < right) {
+        if (left > i + 1 && nums[left] == nums[left - 1]) {
+          ++left;
+          continue;
+        }
         if (nums[i] + nums[left] + nums[right] == 0) {
           ans.push_back({nums[i], nums[left], nums[right]});
+          ++left;
         } else if (nums[i] + nums[left] + nums[right] < 0) {
           left++;
         } else {
