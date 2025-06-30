@@ -291,3 +291,59 @@ target("ex189")
     set_kind("binary")
     add_files("src/excise/ex189/*.cc")
 
+target("ex94")
+    set_kind("binary")
+    add_files("src/excise/ex94/*.cc")
+
+target("ex102")
+    set_kind("binary")
+    add_files("src/excise/ex102/*.cc")
+
+target("ex133")
+    set_kind("binary")
+    add_files("src/excise/ex133/*.cc")
+
+target("ex138")
+    set_kind("binary")
+    add_files("src/excise/ex138/*.cc")
+
+target("ex107")
+    set_kind("binary")
+    add_files("src/excise/ex107/*.cc")
+
+target("ex199")
+    set_kind("binary")
+    add_files("src/excise/ex199/*.cc")
+
+target("ex637")
+    set_kind("binary")
+    add_files("src/excise/ex637/*.cc")
+
+target("ex429")
+    set_kind("binary")
+    add_files("src/excise/ex429/*.cc")
+
+target("ex515")
+    set_kind("binary")
+    add_files("src/excise/ex515/*.cc")
+
+target("ex116")
+    set_kind("binary")
+    add_files("src/excise/ex116/*.cc")
+
+target("ex117")
+    set_kind("binary")
+    add_files("src/excise/ex117/*.cc")
+
+target("ex111")
+    set_kind("binary")
+    add_files("src/excise/ex111/*.cc")
+
+target("ex226")
+    set_kind("binary")
+    add_files("src/excise/ex226/*.cc")
+
+target("ex101")
+    set_kind("binary")
+    add_files("src/excise/ex101/*.cc")
+
