@@ -34,17 +34,23 @@ class Solution {
     string cur;
     function<void(int, int)> dfs = [&](int start, int pos) {
       if (start == n && pos == n) {
+        ans.push_back(cur);
         return;
       }
       for (int i = pos; i < n; ++i) {
         auto str = s.substr(start, i - start + 1);
+        auto tmp = cur;
         if (wordSet.find(str) != wordSet.end()) {
           if (!cur.empty()) {
             cur.push_back(' ');
           }
           cur.append(str);
+          dfs(i + 1, i + 1);
+          cur.swap(tmp);
         }
       }
     };
+    dfs(0, 0);
+    return ans;
   }
 };

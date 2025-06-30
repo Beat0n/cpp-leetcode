@@ -279,3 +279,15 @@ target("ex140")
     set_kind("binary")
     add_files("src/excise/ex140/*.cc")
 
+target("ex155")
+    set_kind("binary")
+    add_files("src/excise/ex155/*.cc")
+
+target("ex151")
+    set_kind("binary")
+    add_files("src/excise/ex151/*.cc")
+
+target("ex189")
+    set_kind("binary")
+    add_files("src/excise/ex189/*.cc")
+
