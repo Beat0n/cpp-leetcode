@@ -15,8 +15,6 @@
 // 解释:
 // 向右轮转 1 步: [99,-1,-100,3]
 // 向右轮转 2 步: [3,99,-1,-100]
-#include <utility>
-
 #include "../common.hh"
 
 class Solution {
