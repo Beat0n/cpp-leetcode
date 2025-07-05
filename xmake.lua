@@ -403,3 +403,19 @@ target("ex501")
     set_kind("binary")
     add_files("src/excise/ex501/*.cc")
 
+target("ex108")
+    set_kind("binary")
+    add_files("src/excise/ex108/*.cc")
+
+target("ex538")
+    set_kind("binary")
+    add_files("src/excise/ex538/*.cc")
+
+target("ex2764")
+    set_kind("binary")
+    add_files("src/excise/ex2764/*.cc")
+
+target("ex230")
+    set_kind("binary")
+    add_files("src/excise/ex230/*.cc")
+
