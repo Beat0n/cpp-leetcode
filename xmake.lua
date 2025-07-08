@@ -431,3 +431,7 @@ target("ex51")
     set_kind("binary")
     add_files("src/excise/ex51/*.cc")
 
+target("ex41")
+    set_kind("binary")
+    add_files("src/excise/ex41/*.cc")
+
