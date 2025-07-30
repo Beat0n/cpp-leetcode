@@ -439,3 +439,15 @@ target("ex41")
     set_kind("binary")
     add_files("src/excise/ex41/*.cc")
 
+target("ex96")
+    set_kind("binary")
+    add_files("src/excise/ex96/*.cc")
+
+target("ex95")
+    set_kind("binary")
+    add_files("src/excise/ex95/*.cc")
+
+target("ex147")
+    set_kind("binary")
+    add_files("src/excise/ex147/*.cc")
+
